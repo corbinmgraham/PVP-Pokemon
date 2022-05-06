@@ -1,10 +1,10 @@
 # PVP Pokemon
 
-Author: Corbin Graham
+**Author: Corbin Graham**
 
-README Format: Markdown (MD)
+**Course: COM S 327**
 
-### About
+## About
 
 A Pokemon game where the player roams a __world__ of __maps__ where in each
 map there is a different terrain and with the terrain a unique set of trainers.
@@ -15,32 +15,37 @@ be approached by the PC to begin battling.
 
 Level up your pokemon, then engage with other players in PVP.
 
-### Interface
+## Features
+
+* Auto-seed generator
+* // TODO //
+
+## Interface
 
 **PC (@) is your character and the one that you move.**
 
-##### Trainers
+#### Trainers
 
 - **h:** Hiker
 - **r:** Rival
 - **w:** Wanderer
 - **s:** Stander
 
-##### Map
+#### Map
 
 - **COMMAND:** Tall Grass - this is where you encounter wild Pokemon.
 - **HASH:** Trees - This is an unmovable object
 - **o:** Boulder - This is an unmovable object
 // TODO //
 
-### Commands
+#### Commands
 
 - **p:** Pokedex (unfinished)
 - **t:** List all known trainers
 - **Arrow Keys:** Move character in direction of key
 // TODO //
 
-### Known Issues
+## Known Issues
 
 **PVP**
 
@@ -58,12 +63,11 @@ Level up your pokemon, then engage with other players in PVP.
 
 - Add to Public Version // TODO //
 
-### Version History
+# Version History
 
 All of the versions and what they implemented in the game
 
-#### 1.09
-====================================================================
+## 1.09
 
 **PVP Battling**
 Easy-to-Read connection code, PVP battling.  Enough said.
@@ -95,8 +99,7 @@ Switch to the now active screen and make your move.
 
 If you lose, the game will exit because your pokemon have all died.
 
-#### 1.08
-====================================================================
+## 1.08
 
 **Battle Sequence**
 Finally implemented the stand-alone most important aspect of the entire
@@ -109,8 +112,7 @@ on the keyboard, and return to the previous menu using 'b'.
 
 Defeat trainers, collect pokemon, and play the game as intended.
 
-#### 1.07
-====================================================================
+## 1.07
 
 A full transition to C++!
 
@@ -137,8 +139,7 @@ easier until it is needed.
 Pokemon will not be able to approach, only be landed on and attacked /
 attack the PC.
 
-#### 1.06
-====================================================================
+## 1.06
 
 Made the transition to C++...
 
@@ -147,8 +148,7 @@ Re-implemented all core features in a C-style C++.
 Parsed DB files for data and stored it into a tagged vector where each
 value could be accessed by its according tag and id #.
 
-#### 1.05
-====================================================================
+## 1.05
 
 Implemented a graphical design nostalgic of the original pokemon games,
 implemented major key commands.
@@ -160,8 +160,7 @@ but the graphical features are all new.
 
 Brought together most of 1.02 with 1.04.
 
-#### 1.04
-====================================================================
+## 1.04
 
 Using my algorithm for distance finding, the trainers now have the ability
 to approach the PC.  This means that the PC has no way to run from the
@@ -208,8 +207,7 @@ Stack - 1 move per turn, sleep for 3ms every turn
     Set the map imap from the PC as CENTER
     Check each enemy radius and if the PC is within, ENEMY = CENTER
 
-#### 1.03
-====================================================================
+## 1.03
 
 **Required Terminal Size: 240x23** (Height can be changed but
                                     output is dependant on
@@ -296,8 +294,7 @@ The algorithm can be applied to any map!  My map in 1.01 is very
 'flat', so there isn't much interference or untouched space
 resulting in very few '   '(gaps) in the output.
 
-#### 1.02
-====================================================================
+## 1.02
 
 **Required Terminal Size: 84x27** (Custom Display)
 
@@ -318,8 +315,7 @@ movement between each unique terrain.
 * F (X) (Y)
 * q - Quit
 
-#### 1.01
-====================================================================
+## 1.01
 
 A program which generates terrain from seed values.
 * Generates a 'map' with dimensions 80x21
@@ -367,19 +363,13 @@ while it does not have the complex design of angles and random shapes,
 there is something beautiful in its simplicity and reminds me more of
 the Pokemon games I grew up with.
 
-### Features
-
-* Auto-seed generator
-* *...*
-
-### Contents
+## Contents
 
 * Makefile
 * README
-* CHANGELOG
-* *...*
+* Game Files
 
-### Usage
+## Usage
 
 **Making**
 ==========
