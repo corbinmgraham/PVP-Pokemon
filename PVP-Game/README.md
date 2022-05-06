@@ -87,12 +87,14 @@ theirs.  This is the first implementation and there is a lot of logic
 behind it so there are quite a few bugs.
 
 __Testing on your own:__
-For the server-side: Copy and paste your own connection code exactly.
+
+- For the server-side: Copy and paste your own connection code exactly.
                      You should see text saying "Waiting for opponent..."
-Client-Side: Paste in the server code but remove any trailing 'x' or 'p'
+- Client-Side: Paste in the server code but remove any trailing 'x' or 'p'
                 characters so you do not become the server (check that the
                 pasted version is not the same as the displayed.)
              It is now your move.
+             
 It is a turn-based gameplay style.  You will see a message on your active screen
 stating that it is waiting for the opponent's turn before doing anything more.
 Switch to the now active screen and make your move.
